@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developr-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Playfair+Display:wght@400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(0, 0, 39);
+        color: white;
+        font-family: "Poppins", sans-serif;
+
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        background-color: rgb(18, 18, 64);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: lavender;
+        font-size: 1.05rem;
+    }
+
+    main hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+    }
+
+    .left {
+        justify-content: space-around;
+        font-size: 1.5rem;
+    }
+
+    .FirstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+
+    }
+
+    .FirstSection>div {
+        width: 30%;
+    }
+
+    .rigthSection img {
+        width: 500px;
+        height: auto;
+    }
+
+
+
+    .leftSection {
+        font-size: 3rem;
+    }
+
+    
+    .leftSection .btn {
+        background-color: purple;
+        color: white;
+        border:2px solid wheat;
+        border-radius: 7px;
+        font-size: 20px;
+        padding: 12px;
+        cursor: pointer;
+    }
+
+
+    .purple {
+        color: rgb(170, 107, 228);
+    }
+
+    .text-gray {
+        color: gray;
+
+    }
+
+    .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+
+    }
+
+    .secondsection h1 {
+        font-size: 1.5rem;
+        position: relative;
+        top: -30px;
+
+    }
+
+    .secondsection .box {
+        background-color: white;
+        width: 77vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+    }
+
+    .secondsection .vertical {
+        height: 94px;
+        width: 1.3px;
+        background-color: bisque;
+        margin: 0 120px;
+    }
+
+
+    .image-top {
+        width: 50px;
+        position: relative;
+        top: -60px;
+        left: -25px;
+
+    }
+
+
+    .vertical-title {
+        position: relative;
+        top: 40px;
+        width: 150px;
+        font-size: 14px;
+    }
+
+    .vertical-desc {
+        position: relative;
+        color: gray;
+        width: 150px;
+        top: 76px;
+        font-size: 10px;
+    }
+    footer{
+        background-color: #0e0e1a; 
+        height: 233px;
+    }
+
+
+    .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Darshan's portfolio </div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/">Home</a></li>
+                    <li> <a href="/">Services</a></li>
+                    <li> <a href="/">Projects</a></li>
+                    <li> <a href="/">About</a></li>
+                    <li> <a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="FirstSection">
+            <div class="leftSection">
+                Hi, Im <span class="purple">Darshan</span>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">GitHub</button>
+                </div>
+            </div>
+            <div class="rigthSection">
+                <img src="bg1.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <h1>What I have learned so far</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html2.png" alt="">
+                    <div class="vertical-title">
+                        HTML
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores at, dignissimos rerum alias
+                        possimus omnis labore mollitia distinctio quam. Ad error corrupti in inventore est totam, rerum
+                        vel exercitationem nobis?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="CSS3 Logo.png" alt="">
+                    <div class="vertical-title">
+                        CSS
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores at, dignissimos rerum alias
+                        possimus omnis labore mollitia distinctio quam. Ad error corrupti in inventore est totam, rerum
+                        vel exercitationem nobis?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="JavaScript Logo.png" alt="">
+                    <div class="vertical-title">
+                        JavaScript
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores at, dignissimos rerum alias
+                        possimus omnis labore mollitia distinctio quam. Ad error corrupti in inventore est totam, rerum
+                        vel exercitationem nobis?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="mysql.png" alt="">
+                    <div class="vertical-title">
+                        My-SQL
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores at, dignissimos rerum alias
+                        possimus omnis labore mollitia distinctio quam. Ad error corrupti in inventore est totam, rerum
+                        vel exercitationem nobis?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java-logo-1.png" alt="">
+                    <div class="vertical-title">
+                        JAVA
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores at, dignissimos rerum alias
+                        possimus omnis labore mollitia distinctio quam. Ad error corrupti in inventore est totam, rerum
+                        vel exercitationem nobis?
+                    </div>
+                </div>
+                
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="flex">
+            <div class="footer-first">
+
+            </div>
+            <div class="footer-second">
+
+            </div>
+            <div class="footer-third">
+
+            </div>
+            <div class="footer-fourth">
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['a Web Developer', 'and a Web Designer.'],
+            typeSpeed: 40,
+        });
+    </script>
+
+</body>
+
+</html>
